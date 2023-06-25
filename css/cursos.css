@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+.Cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+main{
+background: linear-gradient(to bottom, #ffac5e, rgb(255, 227, 142), transparent);
+}
+
+.card img{
+    width: 23%;
+}
+
+.item p{
+    font-size: 14px;
+}
+
+.item{
+    width: 20%;
+    padding: 30px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.395);
+    border-radius: 10px;
+}
+
+.download img {
+    width: 30px !important;
+
+}
+
+.descarga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.descarga p:not(.download p){
+    width: 40%;
+}
+
+.links {
+    display: flex;
+    gap: 5%;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.download {
+    width: 45%;
+    gap: 5%;
+    display: flex;
+    background: black;
+    border-radius: 10px;
+    padding: .6rem;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+        .descarga p:not(.download p) {
+            width: 60%;
+        }
+
+    .item{
+        width: 60%;
+    }
+
+}
