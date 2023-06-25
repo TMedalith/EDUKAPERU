@@ -7,7 +7,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #ffac5e, rgb(255, 227, 142), transparent)
+    background-image: linear-gradient(to bottom, #ffac5e, rgb(255, 227, 142), transparent);
 }
 
 .container h1{
