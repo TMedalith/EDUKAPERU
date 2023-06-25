@@ -1,11 +1,10 @@
 .about-hero {
-    background: linear-gradient(to bottom, #FFB979, rgb(255, 247, 192));
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 650px;
-    background: linear-gradient(to bottom, #ffac5e, rgb(255, 227, 142), transparent);;
+    background: linear-gradient(to bottom, #ffac5e, rgb(255, 227, 142), transparent);
 }
 
 .descripcion {
