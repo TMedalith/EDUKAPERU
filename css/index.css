@@ -127,4 +127,8 @@
     .descripcion {
         order: 2;
     }
+
+        .download {
+            width: 80%;
+        }
 }

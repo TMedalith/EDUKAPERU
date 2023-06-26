@@ -1,6 +1,5 @@
 .about-hero {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 650px;
@@ -27,8 +26,8 @@
 }
 
 iframe {
-    width: 39% ;
-    height: 53% ;
+    width: 39%;
+    height: 53%;
 }
 
 .vision img,
@@ -61,11 +60,11 @@ iframe {
 
 
 .grupo {
-    background:  linear-gradient(to bottom, #FFB979  20%, rgba(255, 210, 142, 0.814), white);
+    background: linear-gradient(to bottom, #FFB979 20%, rgba(255, 210, 142, 0.814), white);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:20px;
+    gap: 20px;
     padding: 60px;
 }
 
@@ -80,16 +79,16 @@ iframe {
 }
 
 .team-member {
-    background:#ffffff47;
+    background: #ffffff47;
     backdrop-filter: blur(10px);
     border: none;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    transition:.5s ease all;
+    transition: .5s ease all;
 }
 
-.team-member:hover{
+.team-member:hover {
     transform: scale(1.05);
 }
 
@@ -134,19 +133,19 @@ iframe {
     height: 200px;
 }
 
-.team{
+.team {
     display: flex;
     margin-bottom: 60px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.team iframe{
+.team iframe {
     width: 30%;
     height: 20vw;
 }
 
-.team img{
+.team img {
     width: 30%;
     object-fit: contain;
 }
@@ -161,20 +160,26 @@ iframe {
         font-size: 14px;
     }
 
-        .team {
-            flex-direction: column;
-            gap: 20px;
-            align-items: center;
-        }
+    .team {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 
-                .team img {
-                    width: 50%;
-                    object-fit: contain;
-                }
+    .team img {
+        width: 50%;
+        object-fit: contain;
+    }
 
     .about-hero {
         flex-direction: column;
     }
+
+    iframe{
+        margin-top: 50px;
+        height: 40%;
+    }
+
 
     .card {
         flex-direction: column;
@@ -191,7 +196,7 @@ iframe {
 
     }
 
-         iframe {
-             width: 50% !important;
-         }
+    iframe {
+        width: 50% !important;
+    }
 }
